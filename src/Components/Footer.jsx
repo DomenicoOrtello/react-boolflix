@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="h-24 bg-black text-white flex flex-col items-center justify-center border-t border-gray-700">
+      <footer className="h-24 bg-black text-white flex flex-col items-center justify-center border-t border-gray-700 w-full">
         <p className="text-gray-400 text-sm">
           © 2025 Boolflix. Tutti i diritti riservati.
         </p>

@@ -30,7 +30,7 @@ export default function Main() {
   };
 
   return (
-    <main className="bg-gray-900 h-auto pb-10 border-t border-gray-700">
+    <main className="bg-gray-900 min-h-screen pb-10 border-t border-gray-700">
       <div className="container mx-auto mt-30">
         {/* Lista Film */}
         <h2 className="text-white text-center text-5xl mb-6">Film</h2>
