@@ -33,7 +33,7 @@ export default function Main() {
     <main className="bg-gray-900 h-auto pb-10 border-t border-gray-700">
       <div className="container mx-auto mt-30">
         {/* Lista Film */}
-        <h2 className="text-white text-center text-5xl mb-6">Lista Film</h2>
+        <h2 className="text-white text-center text-5xl mb-6">Film</h2>
         <ul className="grid grid-cols-5 gap-6">
           {movies.map((movie) => {
             const rating = convertRating(movie.vote_average);
@@ -79,7 +79,7 @@ export default function Main() {
 
         {/* Lista Serie TV */}
         <h2 className="text-white text-center text-5xl mt-12 mb-6">
-          Lista Serie TV
+         Serie TV
         </h2>
         <ul className="grid grid-cols-5 gap-6">
           {tvShows.map((show) => {

@@ -7,8 +7,8 @@ export default function Header() {
         <nav>
             <ul className="flex items-center gap-10 text-white">
                 <li className="transition-transform duration-300 hover:scale-130 ">HOME</li>
-                <li className="transition-transform duration-300 hover:scale-130 ">ORIGINALI</li>
-                <li className="transition-transform duration-300 hover:scale-130 ">AGGIUNTI DI RECENTE</li>
+                <li className="transition-transform duration-300 hover:scale-130 ">POPOLARI</li>
+                <li className="transition-transform duration-300 hover:scale-130 ">NUOVI TITOLI</li>
                 <li className="transition-transform duration-300 hover:scale-130 ">LA MIA LISTA</li>
             </ul>
         </nav>
